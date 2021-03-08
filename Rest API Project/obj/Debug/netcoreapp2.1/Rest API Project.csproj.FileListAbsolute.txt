@@ -1,0 +1,17 @@
+C:\Users\david\OneDrive\Documents\coding\tutorials\Rest API Project\Rest API Project\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\david\OneDrive\Documents\coding\tutorials\Rest API Project\Rest API Project\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\david\OneDrive\Documents\coding\tutorials\Rest API Project\Rest API Project\bin\Debug\netcoreapp2.1\Rest API Project.deps.json
+C:\Users\david\OneDrive\Documents\coding\tutorials\Rest API Project\Rest API Project\bin\Debug\netcoreapp2.1\Rest API Project.runtimeconfig.json
+C:\Users\david\OneDrive\Documents\coding\tutorials\Rest API Project\Rest API Project\bin\Debug\netcoreapp2.1\Rest API Project.runtimeconfig.dev.json
+C:\Users\david\OneDrive\Documents\coding\tutorials\Rest API Project\Rest API Project\bin\Debug\netcoreapp2.1\Rest API Project.dll
+C:\Users\david\OneDrive\Documents\coding\tutorials\Rest API Project\Rest API Project\bin\Debug\netcoreapp2.1\Rest API Project.pdb
+C:\Users\david\OneDrive\Documents\coding\tutorials\Rest API Project\Rest API Project\obj\Debug\netcoreapp2.1\Rest API Project.csprojAssemblyReference.cache
+C:\Users\david\OneDrive\Documents\coding\tutorials\Rest API Project\Rest API Project\obj\Debug\netcoreapp2.1\Rest API Project.AssemblyInfoInputs.cache
+C:\Users\david\OneDrive\Documents\coding\tutorials\Rest API Project\Rest API Project\obj\Debug\netcoreapp2.1\Rest API Project.AssemblyInfo.cs
+C:\Users\david\OneDrive\Documents\coding\tutorials\Rest API Project\Rest API Project\obj\Debug\netcoreapp2.1\Rest API Project.csproj.CoreCompileInputs.cache
+C:\Users\david\OneDrive\Documents\coding\tutorials\Rest API Project\Rest API Project\obj\Debug\netcoreapp2.1\Rest API Project.RazorAssemblyInfo.cache
+C:\Users\david\OneDrive\Documents\coding\tutorials\Rest API Project\Rest API Project\obj\Debug\netcoreapp2.1\Rest API Project.RazorAssemblyInfo.cs
+C:\Users\david\OneDrive\Documents\coding\tutorials\Rest API Project\Rest API Project\obj\Debug\netcoreapp2.1\Rest API Project.RazorTargetAssemblyInfo.cache
+C:\Users\david\OneDrive\Documents\coding\tutorials\Rest API Project\Rest API Project\obj\Debug\netcoreapp2.1\Rest API Project.dll
+C:\Users\david\OneDrive\Documents\coding\tutorials\Rest API Project\Rest API Project\obj\Debug\netcoreapp2.1\Rest API Project.pdb
+C:\Users\david\OneDrive\Documents\coding\tutorials\Rest API Project\Rest API Project\obj\Debug\netcoreapp2.1\Rest API Project.genruntimeconfig.cache
