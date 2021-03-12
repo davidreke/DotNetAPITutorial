@@ -10,6 +10,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using QuotesApi.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace QuotesApi
 {
@@ -26,11 +28,12 @@ namespace QuotesApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
-            services.AddDbContext<QuotesDbContext>(option => option.UseSqlServer(@"Data Source = "));
+            services.AddDbContext<QuotesDbContext>(option => option.UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=QuotesDb;"));
+            // his code looks like  services.AddDbContext<QuotesDbContext>(option => option.UseSqlServer(@"Data Source =(localdb)\MSSQLLocalDB;Initial Catalog=QuotesDb;"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, QuotesDbContext quotesDbContext )
         {
             if (env.IsDevelopment())
             {
@@ -42,6 +45,7 @@ namespace QuotesApi
             }
 
             app.UseHttpsRedirection();
+            quotesDbContext.Database.EnsureCreated();
             app.UseMvc();
         }
     }
