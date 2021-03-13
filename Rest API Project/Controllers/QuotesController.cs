@@ -13,7 +13,12 @@ namespace QuotesApi.Controllers
     public class QuotesController : ControllerBase
     {
 
-        private QuotesDbContext _quotesDbContext = new QuotesDbContext();
+        private QuotesDbContext _quotesDbContext;
+
+        public QuotesController(QuotesDbContext quotesDbContext)
+        {
+            _quotesDbContext = quotesDbContext;
+        }
 
         // GET api/values
         [HttpGet]
