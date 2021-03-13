@@ -15,3 +15,20 @@ C:\Users\david\OneDrive\Documents\coding\tutorials\Rest API Project\Rest API Pro
 C:\Users\david\OneDrive\Documents\coding\tutorials\Rest API Project\Rest API Project\obj\Debug\netcoreapp2.1\QuotesApi.dll
 C:\Users\david\OneDrive\Documents\coding\tutorials\Rest API Project\Rest API Project\obj\Debug\netcoreapp2.1\QuotesApi.pdb
 C:\Users\david\OneDrive\Documents\coding\tutorials\Rest API Project\Rest API Project\obj\Debug\netcoreapp2.1\QuotesApi.genruntimeconfig.cache
+C:\Users\David Reke\Documents\coding\tutorials\DotNetAPITutorial\Rest API Project\obj\Debug\netcoreapp2.1\QuotesApi.csprojAssemblyReference.cache
+C:\Users\David Reke\Documents\coding\tutorials\DotNetAPITutorial\Rest API Project\obj\Debug\netcoreapp2.1\QuotesApi.AssemblyInfoInputs.cache
+C:\Users\David Reke\Documents\coding\tutorials\DotNetAPITutorial\Rest API Project\obj\Debug\netcoreapp2.1\QuotesApi.AssemblyInfo.cs
+C:\Users\David Reke\Documents\coding\tutorials\DotNetAPITutorial\Rest API Project\obj\Debug\netcoreapp2.1\QuotesApi.csproj.CoreCompileInputs.cache
+C:\Users\David Reke\Documents\coding\tutorials\DotNetAPITutorial\Rest API Project\obj\Debug\netcoreapp2.1\QuotesApi.RazorAssemblyInfo.cache
+C:\Users\David Reke\Documents\coding\tutorials\DotNetAPITutorial\Rest API Project\obj\Debug\netcoreapp2.1\QuotesApi.RazorAssemblyInfo.cs
+C:\Users\David Reke\Documents\coding\tutorials\DotNetAPITutorial\Rest API Project\obj\Debug\netcoreapp2.1\QuotesApi.dll
+C:\Users\David Reke\Documents\coding\tutorials\DotNetAPITutorial\Rest API Project\obj\Debug\netcoreapp2.1\QuotesApi.pdb
+C:\Users\David Reke\Documents\coding\tutorials\DotNetAPITutorial\Rest API Project\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\David Reke\Documents\coding\tutorials\DotNetAPITutorial\Rest API Project\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\David Reke\Documents\coding\tutorials\DotNetAPITutorial\Rest API Project\bin\Debug\netcoreapp2.1\QuotesApi.deps.json
+C:\Users\David Reke\Documents\coding\tutorials\DotNetAPITutorial\Rest API Project\bin\Debug\netcoreapp2.1\QuotesApi.runtimeconfig.json
+C:\Users\David Reke\Documents\coding\tutorials\DotNetAPITutorial\Rest API Project\bin\Debug\netcoreapp2.1\QuotesApi.runtimeconfig.dev.json
+C:\Users\David Reke\Documents\coding\tutorials\DotNetAPITutorial\Rest API Project\bin\Debug\netcoreapp2.1\QuotesApi.dll
+C:\Users\David Reke\Documents\coding\tutorials\DotNetAPITutorial\Rest API Project\bin\Debug\netcoreapp2.1\QuotesApi.pdb
+C:\Users\David Reke\Documents\coding\tutorials\DotNetAPITutorial\Rest API Project\obj\Debug\netcoreapp2.1\QuotesApi.RazorTargetAssemblyInfo.cache
+C:\Users\David Reke\Documents\coding\tutorials\DotNetAPITutorial\Rest API Project\obj\Debug\netcoreapp2.1\QuotesApi.genruntimeconfig.cache
