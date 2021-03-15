@@ -5,55 +5,91 @@ using System.Linq;
 using System.Threading.Tasks;
 using QuotesApi.Data;
 using QuotesApi.Models;
+using Microsoft.AspNetCore.Http;
 
 namespace QuotesApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class QuotesController : ControllerBase
-    {
-        public QuotesController(QuotesDbContext db)
-        {
-            _quotesDbContext = db;
-        }
-
+    { 
         private QuotesDbContext _quotesDbContext;
 
         public QuotesController(QuotesDbContext quotesDbContext)
         {
             _quotesDbContext = quotesDbContext;
         }
+    
+
 
         // GET api/values
         [HttpGet]
-        public IEnumerable<Quote> Get()
+        public IActionResult Get()
         {
-            return _quotesDbContext.Quotes;
+            return Ok(_quotesDbContext.Quotes);
         }
 
-        // GET api/values/5
-        [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
+        // GET: api/Quotes/5
+        [HttpGet("{id}", Name = "Get")]
+        public IActionResult Get(int id)
         {
-            return "value";
+            var quote =_quotesDbContext.Quotes.Find(id);
+            if (quote == null)
+            {
+                return NotFound("No record found");
+            }
+            else 
+            {
+                return Ok(quote);
+            }
+            
+
         }
 
         // POST api/values
         [HttpPost]
-        public void Post([FromBody] string value)
+        public IActionResult Post([FromBody] Quote quote)
         {
+            _quotesDbContext.Quotes.Add(quote);
+            _quotesDbContext.SaveChanges();
+            return StatusCode(StatusCodes.Status201Created);
         }
 
         // PUT api/values/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public IActionResult Put(int id, [FromBody] Quote quote)
         {
+           var entity = _quotesDbContext.Quotes.Find(id);
+            if(entity==null)
+            {
+                return NotFound("No rcord found for this id");
+            } else
+            {
+                entity.Title = quote.Title;
+                entity.Author = quote.Author;
+                entity.Description = quote.Description;
+                _quotesDbContext.SaveChanges();
+                return Ok("Record updated successfully");
+            }
+            
+
         }
 
         // DELETE api/values/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public IActionResult Delete(int id)
         {
+            var quote = _quotesDbContext.Quotes.Find(id);
+            if(quote==null)
+            {
+                return NotFound("No record found for this id");
+            } else
+            {
+                _quotesDbContext.Remove(quote);
+                _quotesDbContext.SaveChanges();
+                return Ok("Quote Deleted");
+            }
+           
         }
     }
 }

@@ -30,12 +30,8 @@ namespace QuotesApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
-<<<<<<< HEAD
-            services.AddDbContext<QuotesDbContext>(option => option.UseSqlServer(@"Data Source =DESKTOP-99F9QST;Initial Catalog=QuotesDb;"));
-=======
             services.AddDbContext<QuotesDbContext>(option => option.UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=QuotesDb;"));
             // his code looks like  services.AddDbContext<QuotesDbContext>(option => option.UseSqlServer(@"Data Source =(localdb)\MSSQLLocalDB;Initial Catalog=QuotesDb;"));
->>>>>>> 05e21c5e188bc6f999382527f1b46a77f1176e91
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
